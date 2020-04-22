@@ -10,6 +10,6 @@ The root directory is a `workspace`, containing seperate Cargo crates.
 
 In the root directory, run `cargo build`.
 
-When Cargo is done compiling and building, run `cargo run chapter-<:id>`.
+When Cargo is done compiling and building, run `cargo run --bin chapter<:id>`.
 
-For example: `cargo run chapter-1`.
+For example: `cargo run --bin chapter01`.
